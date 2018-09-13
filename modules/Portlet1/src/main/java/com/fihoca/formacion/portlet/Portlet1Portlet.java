@@ -134,7 +134,6 @@ public class Portlet1Portlet extends MVCPortlet {
 				facturaNueva.put("num", num);
 				facturaNueva.put("cliente", cliente);
 				facturaNueva.put("importe", importe);
-				System.out.println(facturaNueva);
 				return facturaNueva;
 			} else 
 				return f;
