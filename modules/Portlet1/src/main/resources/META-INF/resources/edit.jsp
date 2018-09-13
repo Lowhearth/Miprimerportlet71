@@ -9,7 +9,7 @@
 <form method="post" action="${editarFacturaURL}">
 	<div class="form-group">
 		<label for="usr">num:</label>
-		<input type="text" class="form-control" name="<portlet:namespace />num" value="${factura.num} ">
+		<input type="text" class="form-control" name="<portlet:namespace />num" value="${factura.num}" readonly>
 	</div>
 	<div class="form-group">
 		<label for="usr">cliente:</label>
